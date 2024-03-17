@@ -1,0 +1,79 @@
+body {
+    background-image: url("./nine.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white; /* Text color */
+}
+
+.card {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the card */
+}
+
+.weather-table th {
+    color: white; /* Header text color */
+}
+
+.weather-table td {
+    color: white; /* Data text color */
+}
+
+.weather-table th, .weather-table td {
+    border: none; /* Remove border from table cells */
+}
+
+/* 
+        body {
+            background-image: url("./nine.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+          }
+          
+          .card {
+            padding: 30px;
+          }
+          
+          .weather-table {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.5); 
+            border-radius: 10px;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          .weather-table td {
+            padding: 10px;
+            text-align: left;
+          }
+          
+          .weather-table tbody tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.1); 
+          }
+          
+          .weather-table tbody tr:nth-child(odd) {
+            background-color: rgba(0, 0, 0, 0.05); 
+          }
+          
+          .weather-table th {
+            background-color: rgba(0, 0, 0, 0.3); 
+            color: white;
+            padding: 10px;
+          }
+          
+          .weather-table th,
+          .weather-table td {
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+          }
+          
+          .weather-icon {
+            width: 128px;
+            height: 128px;
+            margin: 0 auto;
+          }
+           */
